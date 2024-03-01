@@ -1,7 +1,7 @@
 import requests
 from concurrent.futures import ThreadPoolExecutor
 from threading import Lock
-from isbnlib import is_isbn10, is_isbn13
+from isbnlib import get_canonical_isbn, is_isbn10, is_isbn13, canonical
 
 
 ol_search = "https://openlibrary.org/search.json"
@@ -19,11 +19,11 @@ def process_result(result, record_count,isbn, session, lock):
             if ol_response_data.get('numFound') != 0:
                 with lock:
                     with open("isbn_found_in_OL", "a") as file:
-                        file.write(f" book_no: {record_count},Openalex_id: {result['id']},OL_key: {ol_response_data['docs'][0]['key']}, isbn: {isbn}\n")
+                        file.write(f" book_no: {record_count}, Openalex_id: {result['id']}, OL_key: {ol_response_data['docs'][0]['key']}, isbn: {isbn}\n")
             else:
                 with lock:
                     with open("isbn_notfound_in_OL", "a") as file:
-                            file.write(f" book_no: {record_count},Openalex_id: {result['id']}, isbn: {isbn}\n")
+                            file.write(f" book_no: {record_count}, Openalex_id: {result['id']}, isbn: {isbn}\n")
         else:
             print(f"No response for title: {result['title']}, book_no: {record_count}")
     except Exception as e:
@@ -50,7 +50,9 @@ def main():
                     else:
                         if result["doi"]:
                             isbn = result["doi"].split("/")[-1]
-                            if is_isbn10(isbn) or is_isbn13(isbn):
+                            if get_canonical_isbn(isbn):
+                                # print("canonical isbn: ", get_canonical_isbn(isbn))
+                                isbn = get_canonical_isbn(isbn)
                                 with lock:
                                     with open("isbn_of_first200_books", "a") as file:
                                         file.write(f"isbn found: {isbn}\n")

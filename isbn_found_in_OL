@@ -1,91 +1,97 @@
- book_no: 9,Openalex_id: https://openalex.org/W2155648052,OL_key: /works/OL18425015W, isbn: 9781400876136
- book_no: 12,Openalex_id: https://openalex.org/W4210702550,OL_key: /works/OL25681596W, isbn: cbo9780511803932
- book_no: 13,Openalex_id: https://openalex.org/W4213439731,OL_key: /works/OL21731371W, isbn: 9780674042605
- book_no: 16,Openalex_id: https://openalex.org/W1995945562,OL_key: /works/OL25127749W, isbn: 9780429246593
- book_no: 8,Openalex_id: https://openalex.org/W4298413470,OL_key: /works/OL25675210W, isbn: cbo9780511808678
- book_no: 7,Openalex_id: https://openalex.org/W2156909104,OL_key: /works/OL19890128W, isbn: 978-1-4757-2440-0
- book_no: 10,Openalex_id: https://openalex.org/W4254687493,OL_key: /works/OL20036308W, isbn: 978-3-319-24277-4
- book_no: 6,Openalex_id: https://openalex.org/W4245961435,OL_key: /works/OL4080729W, isbn: cbo9780511815355
- book_no: 21,Openalex_id: https://openalex.org/W1542932561,OL_key: /works/OL25724947W, isbn: 9780203029053
- book_no: 22,Openalex_id: https://openalex.org/W2052729098,OL_key: /works/OL3740736W, isbn: 978-1-4899-2271-7
- book_no: 24,Openalex_id: https://openalex.org/W950821216,OL_key: /works/OL3486325W, isbn: cbo9780511815478
- book_no: 19,Openalex_id: https://openalex.org/W1513618424,OL_key: /works/OL19124650W, isbn: 978-0-387-21706-2
- book_no: 25,Openalex_id: https://openalex.org/W4233654598,OL_key: /works/OL3956145W, isbn: cbo9780511807763
- book_no: 11,Openalex_id: https://openalex.org/W4301056702,OL_key: /works/OL25713116W, isbn: cbo9780511812507
- book_no: 35,Openalex_id: https://openalex.org/W4298091299,OL_key: /works/OL4639036W, isbn: 9781118619179
- book_no: 39,Openalex_id: https://openalex.org/W1866311589,OL_key: /works/OL11356572W, isbn: 978-3-642-61798-0
- book_no: 43,Openalex_id: https://openalex.org/W4230096730,OL_key: /works/OL16595964W, isbn: 978-0-387-98141-3
- book_no: 32,Openalex_id: https://openalex.org/W1480376833,OL_key: /works/OL4147338W, isbn: 978-0-387-21606-5
- book_no: 29,Openalex_id: https://openalex.org/W2118502261,OL_key: /works/OL5275559W, isbn: 9780470316696
- book_no: 44,Openalex_id: https://openalex.org/W1518897246,OL_key: /works/OL21641101W, isbn: 978-0-387-87458-6
- book_no: 50,Openalex_id: https://openalex.org/W1997834106,OL_key: /works/OL16975962W, isbn: cbo9780511807213
- book_no: 45,Openalex_id: https://openalex.org/W2098910318,OL_key: /works/OL1872008W, isbn: cbo9780511810176
- book_no: 49,Openalex_id: https://openalex.org/W2491458126,OL_key: /works/OL27334751W, isbn: 978-0-387-46312-4
- book_no: 38,Openalex_id: https://openalex.org/W2113076747,OL_key: /works/OL19893736W, isbn: 978-1-4757-0450-1
- book_no: 27,Openalex_id: https://openalex.org/W2787894218,OL_key: /works/OL16918790W, isbn: 978-0-387-84858-7
- book_no: 55,Openalex_id: https://openalex.org/W2033819227,OL_key: /works/OL20974092W, isbn: cbo9780511811685
- book_no: 59,Openalex_id: https://openalex.org/W1563088657,OL_key: /works/OL25679749W, isbn: cbo9780511801389
- book_no: 65,Openalex_id: https://openalex.org/W2085081981,OL_key: /works/OL25658729W, isbn: cbo9780511557842
- book_no: 60,Openalex_id: https://openalex.org/W1515587369,OL_key: /works/OL32327816W, isbn: 9780203793206
- book_no: 62,Openalex_id: https://openalex.org/W4249667877,OL_key: /works/OL21570751W, isbn: 9781400873173
- book_no: 64,Openalex_id: https://openalex.org/W2089876099,OL_key: /works/OL2835662W, isbn: 978-1-4612-1140-2
- book_no: 63,Openalex_id: https://openalex.org/W1527296550,OL_key: /works/OL8058550W, isbn: 978-1-4612-5561-1
- book_no: 58,Openalex_id: https://openalex.org/W2752384816,OL_key: /works/OL16814568W, isbn: 9780674369542
- book_no: 70,Openalex_id: https://openalex.org/W391578156,OL_key: /works/OL21367998W, isbn: cbo9780511810817
- book_no: 68,Openalex_id: https://openalex.org/W2129995310,OL_key: /works/OL27334751W, isbn: 978-1-4757-3061-6
- book_no: 93,Openalex_id: https://openalex.org/W2029403139,OL_key: /works/OL25658678W, isbn: cbo9780511524646
- book_no: 86,Openalex_id: https://openalex.org/W595252221,OL_key: /works/OL25675351W, isbn: cbo9780511841224
- book_no: 89,Openalex_id: https://openalex.org/W1575147392,OL_key: /works/OL8053630W, isbn: 978-3-642-66282-9
- book_no: 77,Openalex_id: https://openalex.org/W4235073904,OL_key: /works/OL25675708W, isbn: cbo9781139173438
- book_no: 98,Openalex_id: https://openalex.org/W29179573,OL_key: /works/OL21407735W, isbn: 3527607439
- book_no: 100,Openalex_id: https://openalex.org/W4297918764,OL_key: /works/OL16008880W, isbn: 9780470743386
- book_no: 87,Openalex_id: https://openalex.org/W2003485756,OL_key: /works/OL22451623W, isbn: 978-94-015-7358-0
- book_no: 97,Openalex_id: https://openalex.org/W4244387885,OL_key: /works/OL4120645W, isbn: 9780674029095
- book_no: 106,Openalex_id: https://openalex.org/W1489838709,OL_key: /works/OL25675368W, isbn: cbo9780511806384
- book_no: 101,Openalex_id: https://openalex.org/W2403035479,OL_key: /works/OL21423474W, isbn: 9780470316436
- book_no: 107,Openalex_id: https://openalex.org/W2124192278,OL_key: /works/OL21548812W, isbn: 9781482234213
- book_no: 114,Openalex_id: https://openalex.org/W2802739963,OL_key: /works/OL25934W, isbn: 9780470316962
- book_no: 102,Openalex_id: https://openalex.org/W4301347335,OL_key: /works/OL25442661W, isbn: 9780691214696
- book_no: 116,Openalex_id: https://openalex.org/W4206439534,OL_key: /works/OL31655523W, isbn: 978-1-4419-0318-1
- book_no: 118,Openalex_id: https://openalex.org/W4238691261,OL_key: /works/OL25662962W, isbn: cbo9780511546013
- book_no: 117,Openalex_id: https://openalex.org/W4231533450,OL_key: /works/OL5271714W, isbn: cbo9780511813085
- book_no: 125,Openalex_id: https://openalex.org/W4213009331,OL_key: /works/OL14866497W, isbn: cbo9780511809071
- book_no: 122,Openalex_id: https://openalex.org/W2159401492,OL_key: /works/OL25091971W, isbn: 9781410606266
- book_no: 120,Openalex_id: https://openalex.org/W2480680997,OL_key: /works/OL5268810W, isbn: 9781119013563
- book_no: 112,Openalex_id: https://openalex.org/W2007993714,OL_key: /works/OL19364249W, isbn: harvard.9780674865327
- book_no: 132,Openalex_id: https://openalex.org/W2150290224,OL_key: /works/OL111772W, isbn: 0471445428
- book_no: 127,Openalex_id: https://openalex.org/W4301958211,OL_key: /works/OL12970183W, isbn: cbo9780511809477
- book_no: 136,Openalex_id: https://openalex.org/W179372779,OL_key: /works/OL8902341W, isbn: cbo9781139171731
- book_no: 129,Openalex_id: https://openalex.org/W4255627481,OL_key: /works/OL25430053W, isbn: 9780691207278
- book_no: 138,Openalex_id: https://openalex.org/W323536346,OL_key: /works/OL8324948W, isbn: cbo9780511840531
- book_no: 143,Openalex_id: https://openalex.org/W4241115065,OL_key: /works/OL25482059W, isbn: 9780691218632
- book_no: 147,Openalex_id: https://openalex.org/W2046002177,OL_key: /works/OL20894056W, isbn: 978-1-4757-0961-2
- book_no: 149,Openalex_id: https://openalex.org/W4296862,OL_key: /works/OL26732844W, isbn: 0-387-37825-1
- book_no: 131,Openalex_id: https://openalex.org/W2143891888,OL_key: /works/OL4624596W, isbn: cbo9780511803161
- book_no: 133,Openalex_id: https://openalex.org/W2028226037,OL_key: /works/OL27457892W, isbn: 978-94-015-7799-1
- book_no: 141,Openalex_id: https://openalex.org/W2487770199,OL_key: /works/OL19859252W, isbn: 978-1-4614-7138-7
- book_no: 150,Openalex_id: https://openalex.org/W1984524168,OL_key: /works/OL15176709W, isbn: cbo9780511811241
- book_no: 172,Openalex_id: https://openalex.org/W1992204683,OL_key: /works/OL5359202W, isbn: cbo9780511622632
- book_no: 152,Openalex_id: https://openalex.org/W1667277804,OL_key: /works/OL19858889W, isbn: 978-94-009-3027-8
- book_no: 169,Openalex_id: https://openalex.org/W2141449020,OL_key: /works/OL27326238W, isbn: 978-0-387-70638-2
- book_no: 173,Openalex_id: https://openalex.org/W2094736317,OL_key: /works/OL21418792W, isbn: 9781400821211
- book_no: 155,Openalex_id: https://openalex.org/W1977733098,OL_key: /works/OL3960978W, isbn: cbo9781139644105
- book_no: 167,Openalex_id: https://openalex.org/W4292023222,OL_key: /works/OL19896501W, isbn: 978-1-4757-1904-8
- book_no: 175,Openalex_id: https://openalex.org/W2498119267,OL_key: /works/OL27981360W, isbn: 9781118548387
- book_no: 170,Openalex_id: https://openalex.org/W4299627282,OL_key: /works/OL27071941W, isbn: 9780203771587
- book_no: 158,Openalex_id: https://openalex.org/W4206495155,OL_key: /works/OL19817834W, isbn: 0471725153
- book_no: 166,Openalex_id: https://openalex.org/W1488435683,OL_key: /works/OL20987360W, isbn: cbo9780511840371
- book_no: 168,Openalex_id: https://openalex.org/W4300170376,OL_key: /works/OL25676682W, isbn: cbo9780511818691
- book_no: 176,Openalex_id: https://openalex.org/W4246924241,OL_key: /works/OL25659430W, isbn: cbo9780511488856
- book_no: 193,Openalex_id: https://openalex.org/W3175417087,OL_key: /works/OL27378741W, isbn: 978-1-4757-3462-1
- book_no: 185,Openalex_id: https://openalex.org/W1556801875,OL_key: /works/OL19892509W, isbn: 978-3-662-09109-8
- book_no: 184,Openalex_id: https://openalex.org/W3012079654,OL_key: /works/OL11261462W, isbn: cbo9780511623486
- book_no: 190,Openalex_id: https://openalex.org/W4207017369,OL_key: /works/OL21750548W, isbn: 9780822391623
- book_no: 194,Openalex_id: https://openalex.org/W1978918752,OL_key: /works/OL25662975W, isbn: cbo9780511612183
- book_no: 192,Openalex_id: https://openalex.org/W1493454437,OL_key: /works/OL4794810W, isbn: 9780470316801
- book_no: 189,Openalex_id: https://openalex.org/W2053501256,OL_key: /works/OL3292644W, isbn: 9780203828274
- book_no: 197,Openalex_id: https://openalex.org/W1988520084,OL_key: /works/OL4039298W, isbn: 978-1-4757-4286-2
- book_no: 196,Openalex_id: https://openalex.org/W2211778065,OL_key: /works/OL25675000W, isbn: cbo9780511813993
- book_no: 183,Openalex_id: https://openalex.org/W1672766972,OL_key: /works/OL21419575W, isbn: 9783527618156
- book_no: 195,Openalex_id: https://openalex.org/W4207012491,OL_key: /works/OL21734641W, isbn: 9780674042582
- book_no: 199,Openalex_id: https://openalex.org/W1981457167,OL_key: /works/OL8014111W, isbn: cbo9780511790942
+ book_no: 11, Openalex_id: https://openalex.org/W4301056702, OL_key: /works/OL25713116W, isbn: 9780511812507
+ book_no: 12, Openalex_id: https://openalex.org/W4210702550, OL_key: /works/OL25681596W, isbn: 9780511803932
+ book_no: 6, Openalex_id: https://openalex.org/W4245961435, OL_key: /works/OL4080729W, isbn: 9780511815355
+ book_no: 9, Openalex_id: https://openalex.org/W2155648052, OL_key: /works/OL18425015W, isbn: 9781400876136
+ book_no: 13, Openalex_id: https://openalex.org/W4213439731, OL_key: /works/OL21731371W, isbn: 9780674042605
+ book_no: 19, Openalex_id: https://openalex.org/W1513618424, OL_key: /works/OL19124650W, isbn: 9780387217062
+ book_no: 16, Openalex_id: https://openalex.org/W1995945562, OL_key: /works/OL25127749W, isbn: 9780429246593
+ book_no: 7, Openalex_id: https://openalex.org/W2156909104, OL_key: /works/OL19890128W, isbn: 9781475724400
+ book_no: 8, Openalex_id: https://openalex.org/W4298413470, OL_key: /works/OL25675210W, isbn: 9780511808678
+ book_no: 10, Openalex_id: https://openalex.org/W4254687493, OL_key: /works/OL20036308W, isbn: 9783319242774
+ book_no: 22, Openalex_id: https://openalex.org/W2052729098, OL_key: /works/OL3740736W, isbn: 9781489922717
+ book_no: 21, Openalex_id: https://openalex.org/W1542932561, OL_key: /works/OL25724947W, isbn: 9780203029053
+ book_no: 24, Openalex_id: https://openalex.org/W950821216, OL_key: /works/OL3486325W, isbn: 9780511815478
+ book_no: 25, Openalex_id: https://openalex.org/W4233654598, OL_key: /works/OL3956145W, isbn: 9780511807763
+ book_no: 32, Openalex_id: https://openalex.org/W1480376833, OL_key: /works/OL4147338W, isbn: 9780387216065
+ book_no: 39, Openalex_id: https://openalex.org/W1866311589, OL_key: /works/OL11356572W, isbn: 9783642617980
+ book_no: 35, Openalex_id: https://openalex.org/W4298091299, OL_key: /works/OL4639036W, isbn: 9781118619179
+ book_no: 29, Openalex_id: https://openalex.org/W2118502261, OL_key: /works/OL5275559W, isbn: 9780470316696
+ book_no: 27, Openalex_id: https://openalex.org/W2787894218, OL_key: /works/OL16918790W, isbn: 9780387848587
+ book_no: 49, Openalex_id: https://openalex.org/W2491458126, OL_key: /works/OL27334751W, isbn: 9780387463124
+ book_no: 50, Openalex_id: https://openalex.org/W1997834106, OL_key: /works/OL16975962W, isbn: 9780511807213
+ book_no: 38, Openalex_id: https://openalex.org/W2113076747, OL_key: /works/OL19893736W, isbn: 9781475704501
+ book_no: 43, Openalex_id: https://openalex.org/W4230096730, OL_key: /works/OL16595964W, isbn: 9780387981413
+ book_no: 45, Openalex_id: https://openalex.org/W2098910318, OL_key: /works/OL1872008W, isbn: 9780511810176
+ book_no: 44, Openalex_id: https://openalex.org/W1518897246, OL_key: /works/OL21641101W, isbn: 9780387874586
+ book_no: 63, Openalex_id: https://openalex.org/W1527296550, OL_key: /works/OL8058550W, isbn: 9781461255611
+ book_no: 62, Openalex_id: https://openalex.org/W4249667877, OL_key: /works/OL21570751W, isbn: 9781400873173
+ book_no: 59, Openalex_id: https://openalex.org/W1563088657, OL_key: /works/OL25679749W, isbn: 9780511801389
+ book_no: 58, Openalex_id: https://openalex.org/W2752384816, OL_key: /works/OL16814568W, isbn: 9780674369542
+ book_no: 70, Openalex_id: https://openalex.org/W391578156, OL_key: /works/OL21367998W, isbn: 9780511810817
+ book_no: 68, Openalex_id: https://openalex.org/W2129995310, OL_key: /works/OL27334751W, isbn: 9781475730616
+ book_no: 60, Openalex_id: https://openalex.org/W1515587369, OL_key: /works/OL32327816W, isbn: 9780203793206
+ book_no: 65, Openalex_id: https://openalex.org/W2085081981, OL_key: /works/OL25658729W, isbn: 9780511557842
+ book_no: 64, Openalex_id: https://openalex.org/W2089876099, OL_key: /works/OL2835662W, isbn: 9781461211402
+ book_no: 55, Openalex_id: https://openalex.org/W2033819227, OL_key: /works/OL20974092W, isbn: 9780511811685
+ book_no: 73, Openalex_id: https://openalex.org/W266716723, OL_key: /works/OL28029086W, isbn: 9780226471013
+ book_no: 66, Openalex_id: https://openalex.org/W4320800888, OL_key: /works/OL4894386W, isbn: 9780199283262
+ book_no: 86, Openalex_id: https://openalex.org/W595252221, OL_key: /works/OL25675351W, isbn: 9780511841224
+ book_no: 77, Openalex_id: https://openalex.org/W4235073904, OL_key: /works/OL25675708W, isbn: 9781139173438
+ book_no: 89, Openalex_id: https://openalex.org/W1575147392, OL_key: /works/OL8053630W, isbn: 9783642662829
+ book_no: 97, Openalex_id: https://openalex.org/W4244387885, OL_key: /works/OL4120645W, isbn: 9780674029095
+ book_no: 98, Openalex_id: https://openalex.org/W29179573, OL_key: /works/OL21407735W, isbn: 3527607439
+ book_no: 93, Openalex_id: https://openalex.org/W2029403139, OL_key: /works/OL25658678W, isbn: 9780511524646
+ book_no: 87, Openalex_id: https://openalex.org/W2003485756, OL_key: /works/OL22451623W, isbn: 9789401573580
+ book_no: 100, Openalex_id: https://openalex.org/W4297918764, OL_key: /works/OL16008880W, isbn: 9780470743386
+ book_no: 114, Openalex_id: https://openalex.org/W2802739963, OL_key: /works/OL25934W, isbn: 9780470316962
+ book_no: 112, Openalex_id: https://openalex.org/W2007993714, OL_key: /works/OL19364249W, isbn: 9780674865327
+ book_no: 107, Openalex_id: https://openalex.org/W2124192278, OL_key: /works/OL21548812W, isbn: 9781482234213
+ book_no: 106, Openalex_id: https://openalex.org/W1489838709, OL_key: /works/OL25675368W, isbn: 9780511806384
+ book_no: 118, Openalex_id: https://openalex.org/W4238691261, OL_key: /works/OL25662962W, isbn: 9780511546013
+ book_no: 117, Openalex_id: https://openalex.org/W4231533450, OL_key: /works/OL5271714W, isbn: 9780511813085
+ book_no: 102, Openalex_id: https://openalex.org/W4301347335, OL_key: /works/OL25442661W, isbn: 9780691214696
+ book_no: 120, Openalex_id: https://openalex.org/W2480680997, OL_key: /works/OL5268810W, isbn: 9781119013563
+ book_no: 125, Openalex_id: https://openalex.org/W4213009331, OL_key: /works/OL14866497W, isbn: 9780511809071
+ book_no: 116, Openalex_id: https://openalex.org/W4206439534, OL_key: /works/OL31655523W, isbn: 9781441903181
+ book_no: 101, Openalex_id: https://openalex.org/W2403035479, OL_key: /works/OL21423474W, isbn: 9780470316436
+ book_no: 122, Openalex_id: https://openalex.org/W2159401492, OL_key: /works/OL25091971W, isbn: 9781410606266
+ book_no: 133, Openalex_id: https://openalex.org/W2028226037, OL_key: /works/OL27457892W, isbn: 9789401577991
+ book_no: 129, Openalex_id: https://openalex.org/W4255627481, OL_key: /works/OL25430053W, isbn: 9780691207278
+ book_no: 127, Openalex_id: https://openalex.org/W4301958211, OL_key: /works/OL12970183W, isbn: 9780511809477
+ book_no: 132, Openalex_id: https://openalex.org/W2150290224, OL_key: /works/OL111772W, isbn: 0471445428
+ book_no: 131, Openalex_id: https://openalex.org/W2143891888, OL_key: /works/OL4624596W, isbn: 9780511803161
+ book_no: 143, Openalex_id: https://openalex.org/W4241115065, OL_key: /works/OL25482059W, isbn: 9780691218632
+ book_no: 141, Openalex_id: https://openalex.org/W2487770199, OL_key: /works/OL19859252W, isbn: 9781461471387
+ book_no: 138, Openalex_id: https://openalex.org/W323536346, OL_key: /works/OL8324948W, isbn: 9780511840531
+ book_no: 136, Openalex_id: https://openalex.org/W179372779, OL_key: /works/OL8902341W, isbn: 9781139171731
+ book_no: 147, Openalex_id: https://openalex.org/W2046002177, OL_key: /works/OL20894056W, isbn: 9781475709612
+ book_no: 149, Openalex_id: https://openalex.org/W4296862, OL_key: /works/OL26732844W, isbn: 0387378251
+ book_no: 150, Openalex_id: https://openalex.org/W1984524168, OL_key: /works/OL15176709W, isbn: 9780511811241
+ book_no: 166, Openalex_id: https://openalex.org/W1488435683, OL_key: /works/OL20987360W, isbn: 9780511840371
+ book_no: 158, Openalex_id: https://openalex.org/W4206495155, OL_key: /works/OL19817834W, isbn: 0471725153
+ book_no: 167, Openalex_id: https://openalex.org/W4292023222, OL_key: /works/OL19896501W, isbn: 9781475719048
+ book_no: 152, Openalex_id: https://openalex.org/W1667277804, OL_key: /works/OL19858889W, isbn: 9789400930278
+ book_no: 151, Openalex_id: https://openalex.org/W1542649433, OL_key: /works/OL169983W, isbn: 9780124735422
+ book_no: 169, Openalex_id: https://openalex.org/W2141449020, OL_key: /works/OL27326238W, isbn: 9780387706382
+ book_no: 170, Openalex_id: https://openalex.org/W4299627282, OL_key: /works/OL27071941W, isbn: 9780203771587
+ book_no: 155, Openalex_id: https://openalex.org/W1977733098, OL_key: /works/OL3960978W, isbn: 9781139644105
+ book_no: 168, Openalex_id: https://openalex.org/W4300170376, OL_key: /works/OL25676682W, isbn: 9780511818691
+ book_no: 160, Openalex_id: https://openalex.org/W4240671868, OL_key: /works/OL28038115W, isbn: 9780226189666
+ book_no: 172, Openalex_id: https://openalex.org/W1992204683, OL_key: /works/OL5359202W, isbn: 9780511622632
+ book_no: 173, Openalex_id: https://openalex.org/W2094736317, OL_key: /works/OL21418792W, isbn: 9781400821211
+ book_no: 174, Openalex_id: https://openalex.org/W4238452917, OL_key: /works/OL17823131W, isbn: 9780199206650
+ book_no: 175, Openalex_id: https://openalex.org/W2498119267, OL_key: /works/OL27981360W, isbn: 9781118548387
+ book_no: 176, Openalex_id: https://openalex.org/W4246924241, OL_key: /works/OL25659430W, isbn: 9780511488856
+ book_no: 184, Openalex_id: https://openalex.org/W3012079654, OL_key: /works/OL11261462W, isbn: 9780511623486
+ book_no: 193, Openalex_id: https://openalex.org/W3175417087, OL_key: /works/OL27378741W, isbn: 9781475734621
+ book_no: 181, Openalex_id: https://openalex.org/W4234933822, OL_key: /works/OL28030790W, isbn: 9780226870373
+ book_no: 183, Openalex_id: https://openalex.org/W1672766972, OL_key: /works/OL21419575W, isbn: 9783527618156
+ book_no: 196, Openalex_id: https://openalex.org/W2211778065, OL_key: /works/OL25675000W, isbn: 9780511813993
+ book_no: 194, Openalex_id: https://openalex.org/W1978918752, OL_key: /works/OL25662975W, isbn: 9780511612183
+ book_no: 192, Openalex_id: https://openalex.org/W1493454437, OL_key: /works/OL4794810W, isbn: 9780470316801
+ book_no: 190, Openalex_id: https://openalex.org/W4207017369, OL_key: /works/OL21750548W, isbn: 9780822391623
+ book_no: 185, Openalex_id: https://openalex.org/W1556801875, OL_key: /works/OL19892509W, isbn: 9783662091098
+ book_no: 195, Openalex_id: https://openalex.org/W4207012491, OL_key: /works/OL21734641W, isbn: 9780674042582
+ book_no: 189, Openalex_id: https://openalex.org/W2053501256, OL_key: /works/OL3292644W, isbn: 9780203828274
+ book_no: 197, Openalex_id: https://openalex.org/W1988520084, OL_key: /works/OL4039298W, isbn: 9781475742862
+ book_no: 199, Openalex_id: https://openalex.org/W1981457167, OL_key: /works/OL8014111W, isbn: 9780511790942
