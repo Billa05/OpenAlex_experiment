@@ -51,19 +51,20 @@ def main():
                         if result["doi"]:
                             isbn = result["doi"].split("/")[-1]
                             if get_canonical_isbn(isbn):
-                                # print("canonical isbn: ", get_canonical_isbn(isbn))
                                 isbn = get_canonical_isbn(isbn)
                                 with lock:
                                     with open("isbn_of_first200_books", "a") as file:
-                                        file.write(f"isbn found: {isbn}\n")
+                                        file.write(f"book_no: {record_count}, isbn found: {isbn}\n")
                                 executor.submit(process_result, result, record_count,isbn, session, lock)
                             else:
                                 with lock:
                                     with open("isbn_of_first200_books", "a") as file:
-                                        file.write(f"isbn not found: {isbn}\n")
+                                        file.write(f"book_no: {record_count}, isbn not found: {isbn}\n")
                                 continue
                         else:
-                            # print("DOI not found: ", result["title"])
+                            with lock:
+                                    with open("isbn_of_first200_books", "a") as file:
+                                        file.write(f"book_no: {record_count}, DOI not found\n")
                             continue
 
             if record_count > 200:
