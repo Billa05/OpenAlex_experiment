@@ -28,7 +28,7 @@ def process_line(line):
 count = 0
 # Read all ISBNs and their values from output.jsonl into a dictionary
 try:
-    with open("output2.jsonl", "r") as f:
+    with open("OpenAlex_isbn.jsonl", "r") as f:
         isbn_dict = {list(json.loads(line).keys())[0]: list(json.loads(line).values())[0] for line in f}
 except (FileNotFoundError, PermissionError) as e:
     print(f"Error accessing output.jsonl: {e}")
