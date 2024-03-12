@@ -11,29 +11,31 @@ isbn_set = set(isbn_dict.keys())
 # Store the found ISBNs in a set
 found_isbn_set = set()
 
-with open("using ol_dump/Hits1.jsonl", "w") as details_file, open("using ol_dump/ol_dump.txt", "r") as file:
+with open("using ol_dump/Hits.jsonl", "w") as details_file, open("using ol_dump/ol_dump.txt", "r") as file:
     for line in file:
         try:
             json_str = line.split("\t")[-1]
             json_data = json.loads(json_str)
         except:
-            print(line)
+            with open("using ol_dump/error.txt") as f:
+                f.write(line + "\n")
             continue
 
-        if not json_data.get("isbn_13"):
-            if json_data.get("isbn_10"):
-                isbn = to_isbn13(json_data.get("isbn_10")[0])
-                if isbn in isbn_set:
-                    found_isbn_set.add(isbn)
-                    result = {"OpenAlex": isbn_dict[isbn], "ISBN_10": to_isbn10(isbn), "edition": json_data["key"]}
-                    details_file.write(json.dumps(result) + "\n")
-        else:
+        isbn = None
+        if json_data.get("isbn_13"):
             isbn = json_data.get("isbn_13")[0]
+            if isbn in isbn_set:
+                found_isbn_set.add(isbn)
+                result = {"OpenAlex": isbn_dict[isbn], "ISBN_13": isbn, "edition": json_data["key"]}
+                details_file.write(json.dumps(result) + "\n")
+        elif json_data.get("isbn_10"):
+            isbn = to_isbn13(json_data.get("isbn_10")[0])
+            if isbn in isbn_set:
+                found_isbn_set.add(isbn)
+                result = {"OpenAlex": isbn_dict[isbn], "ISBN_10": to_isbn10(isbn), "edition": json_data["key"]}
+                details_file.write(json.dumps(result) + "\n")
 
-        if isbn in isbn_set:
-            found_isbn_set.add(isbn)
-            result = {"OpenAlex": isbn_dict[isbn], "ISBN_13": isbn, "edition": json_data["key"]}
-            details_file.write(json.dumps(result) + "\n")
+        
 
 # Create a dictionary of not found ISBNs and their values
 not_found_isbn_dict = {isbn: isbn_dict[isbn] for isbn in isbn_set - found_isbn_set}
