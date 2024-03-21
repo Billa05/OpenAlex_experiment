@@ -20,7 +20,7 @@ Before running this script, ensure that:
 Here is a brief overview of how the `add_identifiers.py` script works:
 
 1. It establishes a connection to the local OpenLibrary instance using the OpenLibrary client.
-2. It reads the "Hits.jsonl" file and creates a dictionary mapping OpenAlex identifiers to OpenLibrary edition identifiers.
+2. It reads the "Hits.jsonl" file and creates a dictionary mapping OpenAlex identifiers to OpenLibrary edition identifiers. Make sure you have the "Hits.jsonl" file in the correct directory before running the script.
 3. For each pair of identifiers, it fetches the corresponding edition from OpenLibrary, adds the OpenAlex identifier to the edition's identifiers, and saves the changes.
 
 
