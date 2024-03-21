@@ -15,9 +15,9 @@ The script [`add_identifiers.py`](https://github.com/Billa05/openlibrary-client/
 Before running this script, ensure that:
 
 1. The local OpenLibrary development environment is up and running.
-2. The records from Hits.jsonl have been copied to the local development environment using the [`copydocs.py`](https://github.com/internetarchive/openlibrary/wiki/Loading-Production-Book-Data) script.
+2. The records from Hits.jsonl have been copied to the local development environment using the [`copydocs.py`](https://github.com/internetarchive/openlibrary/wiki/Loading-Production-Book-Data) script in the local development environment.
 
-Here is a brief overview of how the script works:
+Here is a brief overview of how the `add_identifiers.py` script works:
 
 1. It establishes a connection to the local OpenLibrary instance using the OpenLibrary client.
 2. It reads the "Hits.jsonl" file and creates a dictionary mapping OpenAlex identifiers to OpenLibrary edition identifiers.
