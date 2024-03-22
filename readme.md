@@ -8,20 +8,25 @@
 
 `find.py` script loads ISBNs from "OpenAlex_isbn.jsonl", reads an OpenLibrary dump from "ol_dump.txt" in the "using ol_dump" folder, and checks for matches. Make sure you have the "ol_dump.txt" file in the "using ol_dump" folder. Matches and non-matches are written to "Hits.jsonl" and "Not_Found.jsonl" respectively. ISBN-10s are converted to ISBN-13s for standardization.
 
-## Adding OpenAlex Identifiers to OpenLibrary Records
+## Adding OpenAlex Identifiers and Importing the NotFound Records
 
-The script [`add_identifiers.py`](https://github.com/Billa05/openlibrary-client/blob/master/adding%20identifiers/add_identifiers.py) is used to add OpenAlex identifiers to the corresponding editions in OpenLibrary. This script is part of the [`openlibrary-client`](https://github.com/internetarchive/openlibrary-client/blob/master/README.md) repository.
+The script `import_and_add.py` imports the ISBNs from the "Not_Found.jsonl" file, adds OpenAlex identifiers to the OpenLibrary records, and saves the changes. 
 
-Before running this script, ensure that:
+It uses the OpenLibrary client to interact with a local instance of OpenLibrary. Make sure you have the OpenLibrary client installed and a local instance of OpenLibrary running.
 
-1. The local OpenLibrary development environment is up and running.
-2. The records from Hits.jsonl have been copied to the local development environment using the [`copydocs.py`](https://github.com/internetarchive/openlibrary/wiki/Loading-Production-Book-Data) script in the local development environment.
+The script uses the following process:
 
-Here is a brief overview of how the `add_identifiers.py` script works:
+1. It loads the ISBNs from the "Not_Found.jsonl" file into a dictionary with the ISBN as the key and the OpenAlex identifier as the value.
 
-1. It establishes a connection to the local OpenLibrary instance using the OpenLibrary client.
-2. It reads the "Hits.jsonl" file and creates a dictionary mapping OpenAlex identifiers to OpenLibrary edition identifiers. Make sure you have the "Hits.jsonl" file in the correct directory before running the script.
-3. For each pair of identifiers, it fetches the corresponding edition from OpenLibrary, adds the OpenAlex identifier to the edition's identifiers, and saves the changes.
+2. It iterates over the dictionary. For each ISBN, it fetches the corresponding OpenLibrary record, adds the OpenAlex identifier to the record, and saves the changes.
+
+3. The changes are printed to the console for verification.
+
+To run the script, use the command `python import_and_add.py`.
+
+Note: The script currently stops after processing one record for demonstration purposes. Remove the `break` statement in the `add_identifiers` function to process all records.
+
+
 
 
 
