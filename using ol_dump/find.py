@@ -26,13 +26,13 @@ with open("using ol_dump/Hits.jsonl", "w") as details_file, open("using ol_dump/
             isbn = json_data.get("isbn_13")[0]
             if isbn in isbn_set:
                 found_isbn_set.add(isbn)
-                result = {"OpenAlex": isbn_dict[isbn], "ISBN_13": isbn, "edition": json_data["key"]}
+                result = {"OpenAlex": isbn_dict[isbn], "ISBN": isbn, "edition": json_data["key"]}
                 details_file.write(json.dumps(result) + "\n")
         elif json_data.get("isbn_10"):
             isbn = to_isbn13(json_data.get("isbn_10")[0])
             if isbn in isbn_set:
                 found_isbn_set.add(isbn)
-                result = {"OpenAlex": isbn_dict[isbn], "ISBN_10": to_isbn10(isbn), "edition": json_data["key"]}
+                result = {"OpenAlex": isbn_dict[isbn], "ISBN": to_isbn10(isbn), "edition": json_data["key"]}
                 details_file.write(json.dumps(result) + "\n")
 
         
@@ -42,4 +42,4 @@ not_found_isbn_dict = {isbn: isbn_dict[isbn] for isbn in isbn_set - found_isbn_s
 
 with open("using ol_dump/Not_Found.jsonl", "w") as not_found_file:
     for isbn, value in not_found_isbn_dict.items():
-        not_found_file.write(json.dumps({"ISBN_13": isbn, "OpenAlex": value}) + "\n")
+        not_found_file.write(json.dumps({"ISBN": isbn, "OpenAlex": value}) + "\n")

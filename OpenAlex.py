@@ -19,7 +19,7 @@ def process_result(result):
 next_cursor = "*"
 record_count = 0
 
-with requests.Session() as session, open('output2.jsonl', 'w') as f, ThreadPoolExecutor(max_workers=10) as executor:
+with requests.Session() as session, open('OpenAlex_isbn.jsonl', 'w') as f, ThreadPoolExecutor(max_workers=10) as executor:
     while True:
         open_alex = f"https://api.openalex.org/works?filter=type:book&sort=cited_by_count:desc&cursor={next_cursor}"
         try:
