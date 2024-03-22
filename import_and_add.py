@@ -20,7 +20,6 @@ def add_identifiers(isbn_dict):
         edition.add_id("OpenAlex",id)
         print(edition.identifiers)
         edition.save("edit adds an OpenAlex identifier.")
-        break
 
 def main():
     isbn_dict = import_isbns("using ol_dump/Not_Found.jsonl") # Change the file path to Hits.jsonl for adding identifiers
