@@ -23,7 +23,7 @@ def add_identifiers(isbn_dict):
         break
 
 def main():
-    isbn_dict = import_isbns("using ol_dump/Hits.jsonl") # Change the file path to Hits.jsonl for adding identifiers
+    isbn_dict = import_isbns("using ol_dump/Not_Found.jsonl") # Change the file path to Hits.jsonl for adding identifiers
     add_identifiers(isbn_dict)
 
 if __name__ == "__main__":
