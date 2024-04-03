@@ -20,7 +20,7 @@ def process_result(result):
 def fetch_books(max_records):
     next_cursor = "*"
     record_count = 0
-    output_file = 'OpenAlex_isbn1.jsonl'
+    output_file = 'OpenAlex_isbn.jsonl'
     print("reached fetch_books")
     with requests.Session() as session, open(output_file, 'w') as f, ThreadPoolExecutor(max_workers=10) as executor:
         while True:

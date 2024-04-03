@@ -4,7 +4,6 @@ from collections import namedtuple
 
 Credentials = namedtuple("Credentials", ["username", "password"])
 credentials = Credentials("openlibrary@example.com", "admin123")
-ol = OpenLibrary(base_url="http://localhost:8080", credentials=credentials)
 
 def import_isbns(filename):
     with open(filename, "r") as f:
@@ -12,6 +11,9 @@ def import_isbns(filename):
     return isbn_dict
 
 def add_identifiers(isbn_dict):
+    
+    ol = OpenLibrary(base_url="http://localhost:8080", credentials=credentials)
+
     for isbn , id in isbn_dict.items():
         record = ol.session.get(f"http://localhost:8080/isbn/{isbn}.json")
         record = record.json()

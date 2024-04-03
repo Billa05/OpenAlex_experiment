@@ -1,6 +1,7 @@
 import argparse
 from OpenAlex import fetch_books
 from using_ol_dump.find import find_isbns
+from import_and_add import main
 
 
 if __name__ == "__main__":
@@ -26,5 +27,4 @@ if __name__ == "__main__":
         find_isbns(args.dump_file, args.found_file, args.not_found_file)
 
     if args.add_identifier:
-        from import_and_add import main
         main(args.filename)
