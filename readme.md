@@ -43,11 +43,11 @@ The OpenAlex.py script fetches the top 100k books from OpenAlex via their API, p
 
 ### ISBN Processing in OpenLibrary Dump
 
-The find.py script loads ISBNs from [OpenAlex_isbn.jsonl](https://github.com/Billa05/OpenAlex_experiment/blob/master/using_ol_dump/Not_Found.jsonl), reads an OpenLibrary dump from `ol_dump.txt` in the `using ol_dump` folder, and checks for matches. Make sure you have the `ol_dump.txt` file in the `using ol_dump` folder. Matches and non-matches are written to [Hits.jsonl](https://github.com/Billa05/OpenAlex_experiment/blob/master/using_ol_dump/Hits.jsonl) and `Not_Found.jsonl` respectively. ISBN-10s are converted to ISBN-13s for standardization.
+The find.py script loads ISBNs from [OpenAlex_isbn.jsonl](https://github.com/Billa05/OpenAlex_experiment/blob/master/OpenAlex_isbn.jsonl), reads an OpenLibrary dump from `ol_dump.txt` in the `using ol_dump` folder, and checks for matches. Make sure you have the `ol_dump.txt` file in the `using ol_dump` folder. Matches and non-matches are written to [Hits.jsonl](https://github.com/Billa05/OpenAlex_experiment/blob/master/using_ol_dump/Hits.jsonl) and [Not_Found.jsonl](https://github.com/Billa05/OpenAlex_experiment/blob/master/using_ol_dump/Not_Found.jsonl) respectively. ISBN-10s are converted to ISBN-13s for standardization.
 
 ### Adding OpenAlex Identifiers and Importing the NotFound Records
 
-The `import_and_add.py` script reads ISBNs from a given file (default is `Not_Found.jsonl`). If an ISBN doesn't exist in the database, it imports and appends the corresponding OpenAlex identifiers to the OpenLibrary records. If the ISBN already exists, it simply adds the OpenAlex identifier. All changes are saved.
+The [import_and_add.py](https://github.com/Billa05/OpenAlex_experiment/blob/master/import_and_add.py) script reads ISBNs from a given file (default is `Not_Found.jsonl`). If an ISBN doesn't exist in the database, it imports and appends the corresponding OpenAlex identifiers to the OpenLibrary records. If the ISBN already exists, it simply adds the OpenAlex identifier. All changes are saved.
 
 It uses the OpenLibrary client to interact with a local instance of OpenLibrary. Make sure you have the OpenLibrary client installed and a local instance of OpenLibrary running.
 
