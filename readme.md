@@ -2,6 +2,13 @@
 
 A command-line interface (CLI) for fetching books from OpenAlex, finding ISBNs in an OpenLibrary dump, and adding OpenAlex identifiers to OpenLibrary records.
 
+## Installation
+
+This project requires Python 3.7 or later. Dependencies are listed in the `requirements.txt` file. To install these dependencies, use the following command:
+
+```bash
+pip install -r requirements.txt
+```
 ## Command Line Interface (CLI) Usage
 
 ### Fetching Books from OpenAlex
