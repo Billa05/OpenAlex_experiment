@@ -2,6 +2,7 @@ import json
 from isbnlib import to_isbn13, to_isbn10
 
 def find_isbns(input_file, output_file, not_found_file):
+    print("reached find_isbns")
     # Load ISBNs and their values into a dictionary
     with open("OpenAlex_isbn.jsonl", "r") as f:
         isbn_dict = {list(data.keys())[0]: list(data.values())[0] for data in map(json.loads, f)}

@@ -20,8 +20,8 @@ def process_result(result):
 def fetch_books(max_records):
     next_cursor = "*"
     record_count = 0
-    output_file = 'OpenAlex_isbn.jsonl'
-
+    output_file = 'OpenAlex_isbn1.jsonl'
+    print("reached fetch_books")
     with requests.Session() as session, open(output_file, 'w') as f, ThreadPoolExecutor(max_workers=10) as executor:
         while True:
             open_alex = f"https://api.openalex.org/works?filter=type:book&sort=cited_by_count:desc&cursor={next_cursor}"
